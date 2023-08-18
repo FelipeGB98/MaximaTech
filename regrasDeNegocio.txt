@@ -1,0 +1,24 @@
+Regras de Negócios:
+
+Clientes:
+    Um registro de cliente deve ter um Nome válido, CNPJ válido e um endereço associado com coordenadas.
+    O CNPJ deve ser único; nenhum cliente pode ter o mesmo CNPJ que outro.
+    As coordenadas geográficas dos clientes devem ser registradas com precisão para possibilitar entregas precisas.
+
+Inserção e Modificação de Dados:
+    Os usuários podem cadastrar, editar e excluir informações de clientes.
+    As atualizações devem seguir as mesmas regras de validação do cadastro inicial.
+
+Busca e Recuperação:
+    Os usuários podem buscar clientes usando o Nome, CNPJ ou uma combinação de ambos.
+    Os resultados da busca devem ser exibidos no mapa e em uma visualização de lista.
+
+Exibição no Mapa:
+    O mapa deve exibir marcadores para cada localização geográfica dos clientes.
+
+Endereço e Coordenadas:
+    Os detalhes do endereço devem incluir informações necessárias para identificar a localização física.
+    As coordenadas (latitude e longitude) devem estar associadas ao endereço e representar com precisão a localização do cliente.
+
+Validação e Feedback:
+    Os usuários devem receber feedback apropriado ao tentar cadastrar clientes com informações ausentes ou inválidas.

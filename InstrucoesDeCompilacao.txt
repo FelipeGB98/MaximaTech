@@ -1,0 +1,39 @@
+Passo 1: Configurar o Ambiente
+
+Instale o JDK (Java Development Kit): Baixe e instale o JDK a partir do link fornecido. Certifique-se de configurar as variáveis de ambiente JAVA_HOME e adicionar o diretório bin do JDK ao PATH.
+
+Instale o Node.js: Baixe e instale o Node.js a partir do link fornecido. Isso fornecerá o npm (Node Package Manager) necessário para gerenciar as dependências do Angular.
+
+Instale o Visual Studio Code (VS Code): Baixe e instale o VS Code a partir do link fornecido. Em seguida, instale as extensões listadas para Java e Spring Boot.
+
+Instale o MySQL: Baixe e instale o MySQL a partir do link fornecido.
+
+Passo 2: Preparar o Backend
+
+Clone o repositório: Baixe o código-fonte do projeto Java Backend para uma pasta local.
+
+Importe o projeto no VS Code: Abra o VS Code e importe o projeto Java Backend.
+
+Configure o Banco de Dados: Crie um banco de dados MySQL. Atualize as configurações de conexão do banco de dados no arquivo de configuração do Spring (application.properties ou application.yml) no projeto Backend.
+
+Execute o Backend: Inicie o projeto Java Backend usando o VS Code ou usando o comando ./mvnw spring-boot:run no terminal.
+
+Passo 3: Preparar o Frontend
+
+Clone o repositório: Baixe o código-fonte do projeto Angular Frontend para uma pasta local.
+
+Instale as dependências: Abra um terminal na pasta do projeto Angular e execute o comando npm install para instalar as dependências.
+
+Atualize a URL do Backend: Atualize a URL do Backend no arquivo de configuração do Frontend (se houver).
+
+Execute o Frontend: No terminal, execute o comando 'ng serve' ou 'ng s' para iniciar o servidor de desenvolvimento do Angular.
+
+Passo 4: Acesso ao Aplicativo
+
+Acesse o Aplicativo Backend: O Backend estará disponível em http://localhost:8080.
+
+Acesse o Aplicativo Frontend: O Frontend estará disponível em http://localhost:4200.
+
+Certifique-se de que ambos os servidores (Backend e Frontend) estejam em execução simultaneamente para testar o aplicativo completo.
+
+Os links utilizados estao no arquivo Softwares.txt

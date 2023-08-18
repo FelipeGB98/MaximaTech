@@ -1,0 +1,29 @@
+Requisitos Funcionais:
+
+Cadastro de Clientes:
+    Nome (obrigatório)
+    CNPJ (obrigatório)
+  
+
+Consulta de Clientes:
+    Listagem de todos os clientes com informações básicas (Nome, CNPJ)
+    Possibilidade de filtrar por nome e CNPJ
+
+Edição de Clientes:
+    Atualização das informações de nome, CNPJ e endereço
+    Atualização das coordenadas geográficas //Incompleto
+
+Exclusão de Clientes:
+    Remoção de clientes do sistema
+
+Exibição de Clientes no Mapa:
+    Visualização dos clientes em um mapa com marcações baseadas nas coordenadas geográficas
+
+
+Requisitos não Funcionais
+
+Cadastro de Clientes:
+      Endereço associado a coordenadas geográficas (latitude e longitude) //Incompleto
+
+Edição de Clientes:
+    Atualização das coordenadas geográficas //Incompleto
